@@ -1,0 +1,22 @@
+<div class="main" style="background-image: url('assets/images/bg-01.jpg');">
+  <div class="container">
+    <h2>Đăng nhập</h2>
+    <form (ngSubmit)="onSubmit()">
+      <div class="form-group">
+        <label for="username">Tên đăng nhập:</label>
+        <input type="text" class="form-control" id="username" [(ngModel)]="username" name="username" required>
+        <div *ngIf="registrationError" class="alert alert-danger">
+          {{ registrationError }}
+        </div>
+
+      </div>
+      <div class="form-group">
+        <label for="pwd">Mật khẩu:</label>
+        <input type="password" class="form-control" id="pwd" [(ngModel)]="password" name="password" required>
+      </div>
+      <button type="submit" class="btn btn-primary">Đăng nhập</button>
+    </form>
+    <p>Chưa có tài khoản?</p> <a routerLink="/dangky">Đăng ký</a>
+
+  </div>
+</div>

@@ -1,0 +1,34 @@
+/* Định dạng cho container */
+.container {
+  width: 50%;
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+  padding-top: 20px;
+}
+
+/* Định dạng cho các thành phần của biểu mẫu */
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+.main {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+

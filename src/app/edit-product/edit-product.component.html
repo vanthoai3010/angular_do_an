@@ -1,0 +1,23 @@
+<div class="container ">
+    <h2>Chỉnh sửa sản phẩm</h2>
+    <form (submit)="onSubmit()">
+        <div class="form-group">
+            <label for="productName">Tên sản phẩm:</label>
+            <input type="text" class="form-control" id="productName" [(ngModel)]="editedProduct.name" name="name" required>
+        </div>
+        <div class="form-group">
+            <label for="productDescription">Mô tả:</label>
+            <textarea class="form-control" id="productDescription" [(ngModel)]="editedProduct.description" name="description" required></textarea>
+        </div>
+        <div class="form-group">
+            <label for="productPrice">Giá:</label>
+            <input type="number" class="form-control" id="productPrice" [(ngModel)]="editedProduct.price" name="price" required>
+        </div>
+        <div class="form-group">
+            <label for="productImage">Hình ảnh:</label>
+            <input type="text" class="form-control" id="productImage" [(ngModel)]="editedProduct.image" name="image" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Lưu</button>
+    </form>
+    <a href="" routerLink="/trang-chu">Về trang chủ</a>
+</div> 

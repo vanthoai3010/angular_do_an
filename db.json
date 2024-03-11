@@ -1,0 +1,182 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "HAMBURGER BÒ ",
+      "description": "1 hộp burger bò Mỹ sốt BBQ G Kitchen , 2 lát phô mai miếng , 2 chiếc bánh mì tròn hoặc vỏ bánh Hamburger , Cà chua, xà lách",
+      "price": 20,
+      "image": "assets/images/1698495521-buger_bo.jpg",
+      "quantity": 1
+    },
+    {
+      "id": "2",
+      "name": "HAMBURGER GÀ",
+      "description": "500 gram ức gà ,2 quả trứng gà ,40 gram vụn bánh mì ,4 chiếc vỏ bánh hamburger ,Hành lá, hành khô, tỏi, Dưa chuột, rau xà lách, cà chua.",
+      "price": 20,
+      "image": "assets/images/f7.png",
+      "quantity": 1
+    },
+    {
+      "id": "3",
+      "name": "HAMBURGER XÚC XÍCH",
+      "description": "HamBurger Xúc Xích được làm từ nguồn nguyên liệu tự nhiên, an toàn, . Sản phẩm là sự kết hợp giữa các thành phần như: Bột mì, trứng, mè,…",
+      "price": 18,
+      "image": "https://s3-bucket.s3.cloud.cmctelecom.vn/1267721139/products/3516107/1698495722-hamburger_xuc_xich.jpg",
+      "quantity": 1
+    },
+    {
+      "id": "4",
+      "name": "HAMBURGER TRỨNG",
+      "description": "Hamburger bò trứng là món ăn có sự kết hợp cùa thịt bò băm, trứng gà, dưa leo, cà chua, hành tây, xà lách đi kèm với các loại gia vị khác",
+      "price": 18,
+      "image": "https://s3-bucket.s3.cloud.cmctelecom.vn/1267721139/products/3516108/1698495654-hamburger_trung.jpg",
+      "quantity": 1
+    },
+    {
+      "id": "5",
+      "name": "HOT DOG",
+      "description": "Thành phần chính bao gồm :Thịt heo, bò, gà, hay pha trộn cả ba, và bánh mì  cà chua, hành tây, xà lách đi kèm với các loại gia vị khác",
+      "price": 18,
+      "image": "https://s3-bucket.s3.cloud.cmctelecom.vn/1267721139/products/3516109/1698495755-hot_dot.jpg",
+      "quantity": 1
+    },
+    {
+      "id": "6",
+      "name": "SANDWICH NƯỚNG",
+      "description": "Thành phần chính bao gồm :Thịt heo, bò, gà, hay pha trộn cả ba, và bánh mì  cà chua, hành tây, xà lách đi kèm với các loại gia vị khác",
+      "price": 20,
+      "image": "https://s3-bucket.s3.cloud.cmctelecom.vn/1267721139/products/3570169/1699962182-sand.jpg",
+      "quantity": 1
+    },
+    {
+      "id": "7",
+      "name": "ĐÙI GÀ RÁN",
+      "description": "Thành phần chính bao gồm : Thịt gà, nước, bột trộn, đường, men, muối, tinh bột bắp, chất làm dày, bột nguyên trứng, bột chiết xuất gà",
+      "price": 25,
+      "image": "https://s3-bucket.s3.cloud.cmctelecom.vn/1267721139/products/3516187/1698916612-dui_ga_chien_xu.jpg",
+      "quantity": 1
+    },
+    {
+      "id": "8",
+      "name": "CÁNH GÀ RÁN",
+      "description": "Thành phần chính bao gồm : Thịt gà, nước, bột gia vị (muối, tiêu đen, bột tỏi,...) bột tẩm, bột đậu nành, dầu đậu nành, chất làm dày",
+      "price": 25,
+      "image": "https://s3-bucket.s3.cloud.cmctelecom.vn/1267721139/products/3516188/1698916567-canh_ga.jpg",
+      "quantity": 1
+    },
+    {
+      "id": "9",
+      "name": "GÀ VIÊN CHIÊN",
+      "description": "Thành phần chính bao gồm : Thịt gà, nước, bột gia vị (muối, tiêu đen, bột tỏi,...) bột tẩm, bột đậu nành, dầu đậu nành, chất làm dày",
+      "price": 20,
+      "image": "https://s3-bucket.s3.cloud.cmctelecom.vn/1267721139/products/3516186/1698916673-ga_nugget.jpg",
+      "quantity": 1
+    },
+    {
+      "id": "10",
+      "name": "HÁ CẢO THỊT",
+      "description": " Vỏ bánh được làm từ bột mì, bột há cảo, bột năng, nhân bánh thì có thể đa dạng gồm thịt, tôm, các loại rau, củ quả, dầu mỡ, hành, mắm, muối... ",
+      "price": 5,
+      "image": "https://s3-bucket.s3.cloud.cmctelecom.vn/1267721139/products/3516118/1698498572-cao_thit.jpg",
+      "quantity": 1
+    },
+    {
+      "id": "11",
+      "name": "HÁ CẢO TÔM",
+      "description": " Vỏ bánh được làm từ bột mì, bột há cảo, bột năng, nhân bánh  Tôm , nước , bột năng, sắn, bột há cảo , tinh bột lúa mì, bột mì, dầu mè, muối i-ốt... ",
+      "price": 5,
+      "image": "https://s3-bucket.s3.cloud.cmctelecom.vn/1267721139/products/3516119/1698498699-cao_tom.jpg",
+      "quantity": 1
+    },
+    {
+      "id": "12",
+      "name": "XÍU MẠI",
+      "description": " Thịt lợn băm được tẩm ướp gia vị, thịt cừu toàn bộ thái nhỏ, nấm đen Trung Hoa, bột nhồi nước tro tàu",
+      "price": 5,
+      "image": "https://s3-bucket.s3.cloud.cmctelecom.vn/1267721139/products/3516128/1698498788-xiu_mai.jpg",
+      "quantity": 1
+    }
+  ],
+  "featured_products": [
+    {
+      "id": "1",
+      "name": "HAMBURGER BÒ",
+      "description": "1 hộp burger bò Mỹ sốt BBQ G Kitchen , 2 lát phô mai miếng , 2 chiếc bánh mì tròn hoặc vỏ bánh Hamburger , Cà chua, xà lách",
+      "price": 20,
+      "image": "assets/images/1698495521-buger_bo.jpg",
+      "quantity": 1
+    },
+    {
+      "id": "4",
+      "name": "HAMBURGER TRỨNG",
+      "description": "Hamburger bò trứng là món ăn có sự kết hợp cùa thịt bò băm, trứng gà, dưa leo, cà chua, hành tây, xà lách đi kèm với các loại gia vị khác",
+      "price": 18,
+      "image": "https://s3-bucket.s3.cloud.cmctelecom.vn/1267721139/products/3516108/1698495654-hamburger_trung.jpg",
+      "quantity": 1
+    },
+    {
+      "id": "5",
+      "name": "HOT DOG",
+      "description": "Thành phần chính bao gồm :Thịt heo, bò, gà, hay pha trộn cả ba, và bánh mì  cà chua, hành tây, xà lách đi kèm với các loại gia vị khác",
+      "price": 18,
+      "image": "https://s3-bucket.s3.cloud.cmctelecom.vn/1267721139/products/3516109/1698495755-hot_dot.jpg",
+      "quantity": 1
+    },
+    {
+      "id": "6",
+      "name": "SANDWICH NƯỚNG",
+      "description": "Thành phần chính bao gồm :Thịt heo, bò, gà, hay pha trộn cả ba, và bánh mì  cà chua, hành tây, xà lách đi kèm với các loại gia vị khác",
+      "price": 20,
+      "image": "https://s3-bucket.s3.cloud.cmctelecom.vn/1267721139/products/3570169/1699962182-sand.jpg",
+      "quantity": 1
+    },
+    {
+      "id": "7",
+      "name": "ĐÙI GÀ RÁN",
+      "description": "Thành phần chính bao gồm : Thịt gà, nước, bột trộn, đường, men, muối, tinh bột bắp, chất làm dày, bột nguyên trứng, bột chiết xuất gà",
+      "price": 25,
+      "image": "https://s3-bucket.s3.cloud.cmctelecom.vn/1267721139/products/3516187/1698916612-dui_ga_chien_xu.jpg",
+      "quantity": 1
+    },
+    {
+      "id": "9",
+      "name": "GÀ VIÊN CHIÊN",
+      "description": "Thành phần chính bao gồm : Thịt gà, nước, bột gia vị (muối, tiêu đen, bột tỏi,...) bột tẩm, bột đậu nành, dầu đậu nành, chất làm dày",
+      "price": 20,
+      "image": "https://s3-bucket.s3.cloud.cmctelecom.vn/1267721139/products/3516186/1698916673-ga_nugget.jpg",
+      "quantity": 1
+    },
+    {
+      "id": "10",
+      "name": "HÁ CẢO THỊT",
+      "description": " Vỏ bánh được làm từ bột mì, bột há cảo, bột năng, nhân bánh thì có thể đa dạng gồm thịt, tôm, các loại rau, củ quả, dầu mỡ, hành, mắm, muối... ",
+      "price": 5,
+      "image": "https://s3-bucket.s3.cloud.cmctelecom.vn/1267721139/products/3516118/1698498572-cao_thit.jpg",
+      "quantity": 1
+    },
+    {
+      "id": "12",
+      "name": "XÍU MẠI",
+      "description": " Thịt lợn băm được tẩm ướp gia vị, thịt cừu toàn bộ thái nhỏ, nấm đen Trung Hoa, bột nhồi nước tro tàu",
+      "price": 5,
+      "image": "https://s3-bucket.s3.cloud.cmctelecom.vn/1267721139/products/3516128/1698498788-xiu_mai.jpg",
+      "quantity": 1
+    }
+  ],
+  "user": [
+    {
+      "username": "admin",
+      "email": "admin@gmail.com",
+      "password": "123",
+      "id": "1",
+      "login": true,
+      "isAdmin": 1
+    },
+    {
+      "id": "9790",
+      "username": "thoaicutehehe",
+      "email": "thoaivan769@gmail.com",
+      "password": "123"
+    }
+  ]
+}

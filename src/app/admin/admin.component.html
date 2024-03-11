@@ -1,0 +1,61 @@
+<h1 class="container text-center  ">Welcome admin</h1>
+<div class="container  ">
+    <div style="width: 800px;" class="container card ">
+        <h2>Add New Product</h2>
+        <form (ngSubmit)="onSubmit()">
+            <label for="name">ID:</label>
+            <input class="form-control " type="text" id="id" [(ngModel)]="newProduct.id" name="id" required>
+            <label for="name">Tên sản phẩm:</label>
+            <input class="form-control " type="text" id="name" [(ngModel)]="newProduct.name" name="name" required>
+            <label for="name">Thông tin chi tiết:</label>
+            <input class="form-control " type="text" id="description" [(ngModel)]="newProduct.description" name="description" required>
+            <label for="name">Giá:</label>
+            <input class="form-control " type="text" id="price" [(ngModel)]="newProduct.price" name="price" required>
+            <label for="name">Link hình ảnh:</label>
+            <input class="form-control " type="text" id="image" [(ngModel)]="newProduct.image" name="image" required>
+            <input type="hidden" name="quantity" [(ngModel)]="newProduct.image" name="image" value="1">
+            <br>
+            <button  class="btn btn-outline-success " type="submit">Add Product</button>
+        </form>
+    </div>
+    <div>
+        <h2>Danh sách sản phẩm</h2>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Tên sản phẩm</th>
+                    <th>Hình ảnh</th>
+                    <th>Mô tả</th>
+                    <th>Giá</th>
+                    <th>Hành động</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let product of products">
+                    <td>{{ product.id }}</td>
+                    <td>{{ product.name }}</td>
+                    <td><img style="width: 100px;" [src]="product.image" alt=""></td>
+                    <td>{{ product.description }}</td>
+                    <td>{{ product.price }}</td>
+                    <td>
+                        <button class="btn btn-primary" [routerLink]="['/edit-product', product.id]">Sửa</button>
+                        <button class="btn btn-danger" (click)="deleteProduct(product.id)">Xóa</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+    <div>
+        <h2>Tài khoản đã đăng ký</h2>
+        <ul>
+            <li *ngFor="let user of users">
+                {{ user.email }}
+                <button class="btn btn-danger" (click)="deleteUser(user.id)">Xóa</button>
+            </li>
+        </ul>
+        <a href="" routerLink="/trang-chu">Về trang chủ</a>
+    </div>
+
+</div>
